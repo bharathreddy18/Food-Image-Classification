@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Classification</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { display: flex; justify-content: space-around; margin-top: 20px; }
+        .upload-section, .info-section { width: 45%; }
+        img { max-width: 100%; height: 250px; margin-top: 10px; }
+        select, button { margin-top: 10px; padding: 10px; }
+        .food-list { display: flex; flex-wrap: wrap; gap: 5px; list-style: none; padding: 0; }
+        .food-list li { background-color: #f8f9fa; padding: 2px 5px; border-radius: 8px; text-align: center; flex: 1 1 calc(33.333% - 15px); max-width: 200px;}
+    </style>
+</head>
+<body>
+    <h1>Food Classification System</h1>
+    <div class="container">
+        <div class="upload-section">
+            <h2>Upload Food Image</h2>
+            <input type="file" id="imageUpload" accept="image/*"><br>
+            <h3>Select Model</h3>
+            <select id="modelSelect">
+                <option value="custom_cnn">Custom CNN</option>
+                <option value="vgg16">VGG16</option>
+                <option value="resnet50">ResNet50</option>
+            </select><br>
+            <button onclick="uploadImage()">Predict</button>
+            <h3>Uploaded Image:</h3>
+            <img id="uploadedImage" src="" alt="Uploaded Image">
+        </div>
+        
+        <div class="info-section">
+            <h2>Upload any of the below Food Classes</h2>
+            <ul class="food-list">
+                {% for food in food_classes %}
+                   <li>{{ food }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <h2>Prediction Result</h2>
+    <h3 id="predictedClass"></h3>
+    <h3>Nutrition Info:</h3>
+    <p id="nutritionInfo"></p>
+
+    <h3>Model Validation Report</h3>
+    <ul id="modelReport"></ul>
+
+    <script>
+        function uploadImage() {
+            var formData = new FormData();
+            var file = document.getElementById("imageUpload").files[0];
+            var model = document.getElementById("modelSelect").value;
+            if (!file) { alert("Please select an image!"); return; }
+
+            formData.append("file", file);
+            formData.append("model", model);
+
+            fetch("/predict", { method: "POST", body: formData })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("predictedClass").innerText = "Predicted Class: " + data.class_name;
+                    document.getElementById("nutritionInfo").innerText = "Nutrition: " + JSON.stringify(data.nutrition);
+
+                    let reportHTML = "";
+                    for (const [key, value] of Object.entries(data.model_report)) {
+                        reportHTML += `<li><strong>${key}:</strong> ${value}</li>`;
+                    }
+                    document.getElementById("modelReport").innerHTML = reportHTML;
+                    
+                    document.getElementById("uploadedImage").src = URL.createObjectURL(file);
+                })
+                .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>

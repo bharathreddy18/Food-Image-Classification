@@ -1,0 +1,308 @@
+{
+    "Baked Potato": {
+        "calories": 160.89,
+        "total_fat": 0.22,
+        "carbohydrates": 36.59,
+        "fiber": 3.81,
+        "sugars": 2.04,
+        "protein": 4.33,
+        "serving_size": "potato medium"
+    },
+    "Crispy Chicken": {
+        "calories": 376.6,
+        "total_fat": 20.89,
+        "carbohydrates": 4.41,
+        "fiber": 0.14,
+        "sugars": 0,
+        "protein": 39.98,
+        "serving_size": "piece"
+    },
+    "Donut": {
+        "calories": 252.6,
+        "total_fat": 13.62,
+        "carbohydrates": 28.76,
+        "fiber": 1.26,
+        "sugars": 13.65,
+        "protein": 3.68,
+        "serving_size": "doughnut, medium"
+    },
+    "Fries": {
+        "calories": 365.04,
+        "total_fat": 17.23,
+        "carbohydrates": 48.48,
+        "fiber": 4.45,
+        "sugars": 0.35,
+        "protein": 4.01,
+        "serving_size": "serving medium"
+    },
+    "Hot Dog": {
+        "calories": 154.56,
+        "total_fat": 14.09,
+        "carbohydrates": 1.28,
+        "fiber": 0,
+        "sugars": 0.61,
+        "protein": 5.61,
+        "serving_size": "frankfurter"
+    },
+    "Sandwich": {
+        "calories": 154.86,
+        "total_fat": 1.88,
+        "carbohydrates": 28.23,
+        "fiber": 2.32,
+        "sugars": 3.43,
+        "protein": 6.22,
+        "serving_size": "slices of bread"
+    },
+    "Taco": {
+        "calories": 210.12,
+        "total_fat": 9.95,
+        "carbohydrates": 20.63,
+        "fiber": 2.96,
+        "sugars": 1.6,
+        "protein": 9.44,
+        "serving_size": "taco"
+    },
+    "Taquito": {
+        "calories": 119.91,
+        "total_fat": 5.32,
+        "carbohydrates": 14.09,
+        "fiber": 1.2,
+        "sugars": 0.62,
+        "protein": 3.91,
+        "serving_size": "taquito"
+    },
+    "apple_pie": {
+        "calories": 296.25,
+        "total_fat": 13.75,
+        "carbohydrates": 42.5,
+        "fiber": 2,
+        "sugars": 19.56,
+        "protein": 2.38,
+        "serving_size": "piece (1/8 of 9\" dia)"
+    },
+    "burger": {
+        "calories": 540.14,
+        "total_fat": 26.56,
+        "carbohydrates": 40.27,
+        "fiber": null,
+        "sugars": null,
+        "protein": 34.28,
+        "serving_size": "sandwich"
+    },
+    "butter_naan": {
+        "calories": 312.76,
+        "total_fat": 10.84,
+        "carbohydrates": 45.39,
+        "fiber": 1.98,
+        "sugars": 3.2,
+        "protein": 8.72,
+        "serving_size": "piece"
+    },
+    "chai": {
+        "calories": 4.87,
+        "total_fat": 0.06,
+        "carbohydrates": 1.36,
+        "fiber": 0.34,
+        "sugars": 0.02,
+        "protein": 0.06,
+        "serving_size": "cup"
+    },
+    "chapati": {
+        "calories": 119.6,
+        "total_fat": 3.68,
+        "carbohydrates": 18.45,
+        "fiber": 3.88,
+        "sugars": 1.17,
+        "protein": 3.14,
+        "serving_size": "medium"
+    },
+    "cheesecake": {
+        "calories": 401.25,
+        "total_fat": 28.13,
+        "carbohydrates": 31.88,
+        "fiber": 0.5,
+        "sugars": 27.25,
+        "protein": 6.88,
+        "serving_size": "piece (1 NLEA serving)"
+    },
+    "chicken_curry": {
+        "calories": 243.26,
+        "total_fat": 10.86,
+        "carbohydrates": 7.52,
+        "fiber": 1.49,
+        "sugars": 2.05,
+        "protein": 28.25,
+        "serving_size": "cup"
+    },
+    "chole_bhature": {
+        "calories": 510.88,
+        "total_fat": 26.96,
+        "carbohydrates": 58.91,
+        "fiber": 11.07,
+        "sugars": 8.55,
+        "protein": 13.24,
+        "serving_size": "bhatura with chole"
+    },
+    "dal_makhani": {
+        "calories": 426.89,
+        "total_fat": 24.21,
+        "carbohydrates": 39.48,
+        "fiber": 13.21,
+        "sugars": 6.04,
+        "protein": 16.28,
+        "serving_size": "serving"
+    },
+    "dhokla": {
+        "calories": 151.72,
+        "total_fat": 7.36,
+        "carbohydrates": 15.88,
+        "fiber": 2.54,
+        "sugars": 5.71,
+        "protein": 5.7,
+        "serving_size": "piece"
+    },
+    "fried_rice": {
+        "calories": 238.38,
+        "total_fat": 4.06,
+        "carbohydrates": 44.92,
+        "fiber": 1.51,
+        "sugars": 0.77,
+        "protein": 5.55,
+        "serving_size": "cup"
+    },
+    "ice_cream": {
+        "calories": 273.24,
+        "total_fat": 14.52,
+        "carbohydrates": 31.15,
+        "fiber": 0.92,
+        "sugars": 28.01,
+        "protein": 4.62,
+        "serving_size": "cup"
+    },
+    "idli": {
+        "calories": 58.01,
+        "total_fat": 0.44,
+        "carbohydrates": 11.62,
+        "fiber": 0.54,
+        "sugars": 0.1,
+        "protein": 1.65,
+        "serving_size": "idli"
+    },
+    "jalebi": {
+        "calories": 149.72,
+        "total_fat": 3.48,
+        "carbohydrates": 29.02,
+        "fiber": 0.39,
+        "sugars": 18.86,
+        "protein": 1.28,
+        "serving_size": "piece"
+    },
+    "kaathi_rolls": {
+        "calories": 76.44,
+        "total_fat": 1.76,
+        "carbohydrates": 12.88,
+        "fiber": 1.06,
+        "sugars": 0.46,
+        "protein": 2.41,
+        "serving_size": "roll (1 oz)"
+    },
+    "kadai_paneer": {
+        "calories": 364.78,
+        "total_fat": 29.06,
+        "carbohydrates": 3.64,
+        "fiber": 0,
+        "sugars": 2.83,
+        "protein": 22.07,
+        "serving_size": "cup, crumbled"
+    },
+    "kulfi": {
+        "calories": 184.41,
+        "total_fat": 7.58,
+        "carbohydrates": 24.96,
+        "fiber": 0.23,
+        "sugars": 21.55,
+        "protein": 4.81,
+        "serving_size": "bar"
+    },
+    "masala_dosa": {
+        "calories": 167.67,
+        "total_fat": 3.72,
+        "carbohydrates": 29.2,
+        "fiber": 0.86,
+        "sugars": 0.15,
+        "protein": 3.88,
+        "serving_size": "medium dosa"
+    },
+    "momos": {
+        "calories": 61.48,
+        "total_fat": 2.16,
+        "carbohydrates": 7.19,
+        "fiber": 0.44,
+        "sugars": 0.36,
+        "protein": 3.37,
+        "serving_size": "dumpling"
+    },
+    "omelette": {
+        "calories": 323.47,
+        "total_fat": 25.32,
+        "carbohydrates": 1.39,
+        "fiber": 0.07,
+        "sugars": 0.62,
+        "protein": 21.13,
+        "serving_size": "3-egg omelet"
+    },
+    "paani_puri": {
+        "calories": 140.88,
+        "total_fat": 9.77,
+        "carbohydrates": 12.34,
+        "fiber": 1.83,
+        "sugars": 0.07,
+        "protein": 2.26,
+        "serving_size": "poori"
+    },
+    "pakode": {
+        "calories": 196,
+        "total_fat": 14,
+        "carbohydrates": 14,
+        "fiber": 2.83,
+        "sugars": 3.9,
+        "protein": 4.4,
+        "serving_size": "cup"
+    },
+    "pav_bhaji": {
+        "calories": 389.75,
+        "total_fat": 11.44,
+        "carbohydrates": 62.58,
+        "fiber": 9.44,
+        "sugars": 10.58,
+        "protein": 11.75,
+        "serving_size": "serving"
+    },
+    "pizza": {
+        "calories": 284.62,
+        "total_fat": 10.37,
+        "carbohydrates": 35.66,
+        "fiber": 2.46,
+        "sugars": 3.83,
+        "protein": 12.19,
+        "serving_size": "slice"
+    },
+    "samosa": {
+        "calories": 261.5,
+        "total_fat": 17.24,
+        "carbohydrates": 23.91,
+        "fiber": 2.08,
+        "sugars": 1.59,
+        "protein": 3.49,
+        "serving_size": "samosa"
+    },
+    "sushi": {
+        "calories": 348.54,
+        "total_fat": 18.75,
+        "carbohydrates": 37.89,
+        "fiber": 3.23,
+        "sugars": 7.02,
+        "protein": 7.81,
+        "serving_size": "roll (8 pieces)"
+    }
+}
