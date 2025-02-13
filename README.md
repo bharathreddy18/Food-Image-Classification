@@ -13,8 +13,8 @@ This project is a **Food Classification Web App** built using **Flask**. Users c
 ## 🛠️ Installation
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/bharathreddy18/food-classification-app.git
-cd food-classification-app
+git clone https://github.com/bharathreddy18/Food-Image-Classification.git
+cd Food-Image-Classification
 ```
 
 ### 2. Create a Virtual Environment
@@ -87,5 +87,5 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ---
 
 ## 📞 Contact
-- GitHub: [yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [Bharath Reddy](https://github.com/bharathreddy18)
+- LinkedIn: [Jaya Bharath Reddy](https://linkedin.com/in/jaya-bharath-reddy-iska)
