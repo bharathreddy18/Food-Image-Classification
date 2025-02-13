@@ -77,6 +77,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
+If you find any mistakes or any doubts please post your comment so that I or anyone here can help you [Discussions Page](https://github.com/bharathreddy18/Food-Image-Classification/discussions/1)
 
 ---
 
