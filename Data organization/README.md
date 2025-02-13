@@ -1,6 +1,6 @@
 ## Where i got the data from?
 
-`We all know **kaggle** is top most website for collecting various types of datasets all over the work to apply for educational purposes.`
+- We all know **kaggle** is top most website for collecting various types of datasets all over the work to apply for educational purposes.
 
 🙌 Here is the dataset link: [Food Image Classification Dataset](https://www.kaggle.com/datasets/harishkumardatalab/food-image-classification-dataset)
 
