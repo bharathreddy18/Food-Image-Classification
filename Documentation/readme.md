@@ -1,4 +1,4 @@
-`This documentation directory contains two file:
+`This documentation directory contains two file:`
 1. Project documentation.docx
 2. Project overview.ppt
 
