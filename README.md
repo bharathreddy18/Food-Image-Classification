@@ -88,6 +88,7 @@ If you find any mistakes or any doubts please post your comment so that I or any
 
 ---
 
-## 📞 Contact
+## 📞 Contact Me
 - GitHub: [Jay](https://github.com/bharathreddy18)
 - LinkedIn: [Jaya Bharath Reddy](https://linkedin.com/in/jaya-bharath-reddy-iska-7a3844210)
+- Mail: bharathreddy.iska@gmail.com
