@@ -87,5 +87,5 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ---
 
 ## 📞 Contact
-- GitHub: [Bharath Reddy](https://github.com/bharathreddy18)
-- LinkedIn: [Jaya Bharath Reddy](https://linkedin.com/in/jaya-bharath-reddy-iska)
+- GitHub: [Jay](https://github.com/bharathreddy18)
+- LinkedIn: [Jaya Bharath Reddy](https://linkedin.com/in/jaya-bharath-reddy-iska-7a3844210)
